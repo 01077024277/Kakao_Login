@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="782350e4490792fc90212202f90814f1" />
+            android:value="@string/key" />
 
 
         <activity android:name=".MainActivity">
