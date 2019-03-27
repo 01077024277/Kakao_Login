@@ -121,7 +121,7 @@ public class MainActivity extends Activity {
         });
     }
 
-    /** 로그아웃시 **/
+    /** 앱연결 해제 **/
     private void onClickLogout() {
 
         UserManagement.getInstance().requestUnlink(new UnLinkResponseCallback() {
